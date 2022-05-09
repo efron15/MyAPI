@@ -12,6 +12,7 @@ $(document).ready(function () {
             <td>${data.Global.TotalDeaths}</td>
             <td>${data.Global.TotalRecovered}</td>
             <td>${data.Global.NewDeaths}</td>
+            <td>${data.Global.NewConfirmed}</td>
             `
 
             $("#data").html(data)

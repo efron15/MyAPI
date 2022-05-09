@@ -17,3 +17,7 @@ body{
 h1{
     margin-bottom: 50px;
 }
+
+thead{
+    background-color: #6b6262;
+}
