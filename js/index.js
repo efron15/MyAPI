@@ -7,7 +7,14 @@ $(document).ready(function () {
 
         $.get(url,function (data) {
             console.log(data.Global);
-            data = ``
+            data = `
+            <td>${data.Global.TotalConfirmed}</td>
+            <td>${data.Global.TotalDeaths}</td>
+            <td>${data.Global.TotalRecovered}</td>
+            <td>${data.Global.NewDeaths}</td>
+            `
+
+            $("#data").html(data)
         })
     }
 })
