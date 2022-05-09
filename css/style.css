@@ -1,0 +1,14 @@
+@import url(./reset.css);
+
+*{
+  box-sizing: border-box
+}
+
+body{
+    width: 100%;
+    padding: 20px;
+    /* 輔助背景色 */
+    background-color: #DDDDDD;
+    /* 輔助高度 */
+    height: 100vh;
+}
